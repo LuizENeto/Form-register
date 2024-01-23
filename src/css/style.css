@@ -1,0 +1,130 @@
+body {
+    background-color: #B0A8B9;
+    font-family: Arial, Helvetica, sans-serif;
+    max-height: 100vh;
+}
+
+/* .cabecalho {
+    padding: 10px 5px;
+    background-color: #4B4453;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.logo {
+    color: white;
+}
+
+.botoes-header {
+    color: white;
+    background-color: #845EC2;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* ---------------HEADER-------------- */
+
+.formulario {
+    background-color: white;
+    padding: 30px;
+    min-width: 320px;
+    max-width: 450px;
+   /*  margin: 200px auto; */
+   margin: 0 auto;
+   margin-top: 20px;
+
+}
+/* 
+resolver bordas input
+parte 1: remover bordas do input - feito
+parte 2: adicionar borda apenas embaixo -
+
+
+*/
+.caixas-formulario {
+    border: none;
+    margin: 20px 0;
+    padding: 5px;
+    width: 95%;
+}
+
+.divisoria-formulario {
+    width: 98%;
+    background-color: #B29A9A;
+    margin-bottom: 20px;
+}
+
+.criar-conta {
+    width: 250px;
+    height: 60px;
+    border: none;
+    background-color: #B29A9A;
+    margin: 20px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+.texto-formulario {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4B4453;
+}
+
+.conecte-se-com {
+    background-color: white;
+    padding: 30px;
+    min-width: 320px;
+    max-width: 450px;
+    margin: 10px auto;
+
+}
+
+.fa-facebook {
+    color: #B29A9A;
+    font-size: 20px;
+    padding: 8px;
+}
+.fa-twitter {
+    color: #B29A9A;
+    font-size: 20px;
+    padding: 8px;
+}
+.fa-google {
+    color: #B29A9A;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.outros-logins {
+    padding: 2px;
+    font-size: 20px;
+    color: #4B4453;
+    margin-left: 10px;
+}
+
+.botao {
+    text-align: center;
+}
+
+.redes-sociais {
+    text-align: right;
+    padding: 2px;
+}
+
+.login {
+    color: #B29A9A;
+    text-decoration: none;
+    font-weight: 600;
+}
